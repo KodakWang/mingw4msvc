@@ -16,6 +16,15 @@ set(PROJECT_LIBS
     libgcrypt.a
     libgpg-error.a
     libmingwex.a
+
+    libavformat.a
+    libavcodec.a
+    libgsm.a
+    libopenjp2.a
+    libavutil.a
+    #libgcc.a
+    libz.a
+    libmp3lame.a
     )
 
 add_library(${PROJECT_NAME} STATIC ${PROJECT_SOURCES})
